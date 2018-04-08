@@ -13,7 +13,9 @@ How to proceed (it's very simple)
 2. Add the notebook and exercises into the directory you just created
 3. When it's ready for review, ping the person that is assigned to review
    your learning unit.
-
+4. When the reviewer finished and is happy with it, ping Sam and claim
+   let him know it's ready to merge into master.
+5. Have a great time teaching it at the bootcamp!
 
 ## What is this repo?
 
