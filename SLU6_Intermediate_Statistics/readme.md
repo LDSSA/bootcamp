@@ -1,4 +1,4 @@
-# Smaller Learning Unit 6 - Intermediate Statistics 
+# Small Learning Unit 6 - Intermediate Statistics 
 
 
 #### [Presentation](https://youtu.be/BsBK3gyMFcw?t=18s)
