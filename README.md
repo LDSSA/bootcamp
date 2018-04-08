@@ -7,6 +7,13 @@ for the guidelines:
 - [Guide to build SLUs](https://github.com/LDSSA/wiki/wiki/Guide-to-building-Learning-Units)
 - [Guide to use nbgrader](https://github.com/LDSSA/wiki/wiki/Using-nbgrader-for-Exercise-Notebooks)
 
+How to proceed (it's very simple)
+
+1. Create a new directory `units/SLU6_<name-of-unit>`
+2. Add the notebook and exercises into the directory you just created
+3. When it's ready for review, ping the person that is assigned to review
+   your learning unit.
+
 
 ## What is this repo?
 
