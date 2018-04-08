@@ -1,3 +1,13 @@
+# Until Academy Launch
+
+This repo will be under construction. If you are looking at it, it's probably because you
+are an instructor and you should take a look at the following works of the Pedro Fonseca
+for the guidelines:
+
+- [Guide to build SLUs](https://github.com/LDSSA/wiki/wiki/Guide-to-building-Learning-Units)
+- [Guide to use nbgrader](https://github.com/LDSSA/wiki/wiki/Using-nbgrader-for-Exercise-Notebooks)
+
+
 ## What is this repo?
 
 This repo contains a series of Learning Units. A Learning Unit is one hour of material
