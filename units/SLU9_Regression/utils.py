@@ -200,7 +200,14 @@ def run_linear_regression_sgd_epoch(x, y, params, learning_rate):
     return params
     
 
-def run_multiple_sgd_iter_for_simple_r(x, y, params, learning_rate, n_iter):
+def run_multiple_sgd_iter_for_simple_lr(x, y, params, learning_rate, n_iter):
+    data = pd.concat(
+        (x.to_frame(), y.to_frame()), 
+        axis=1)
+    data.columns = ['x', 'y']
+    
+    data.sample(n=data.shape[0], random_state=random_state)
+    
     for i in range(int(n_iter)):
         run_linear_regression_sgd_epoch(x, y, params, learning_rate)
     
@@ -208,8 +215,85 @@ def run_multiple_sgd_iter_for_simple_r(x, y, params, learning_rate, n_iter):
         b0 = params['b0']
         b1 = params['b1']
         y_hat = b0 + b1 * x_
+        
+        params['path'].append({
+            'b0': b0, 
+            'b1': b1
+        })
     
-    run_sgd_for_simple_lr(x, y, params, learning_rate)
+    x_ = np.linspace(-4, 4)
+    b0 = params['b0']
+    b1 = params['b1']
+    y_hat = b0 + b1 * x_
+    
+    
+    f, (ax1, ax2) = plt.subplots(1, 2, sharey=False)
+    f.set_figheight(5)
+    f.set_figwidth(15)
+    
+    plt.ylim([-4, 8])
+    plt.xlim([-6, 6])
+    ax1.plot(x_, y_hat)
+    ax1.scatter(x, y, c='orange')
+    
+    path = params['path']
+    
+    x = []
+    y = []
+    
+    for p in path:
+        x.append(p['b0'])
+        y.append(p['b1'])
+    
+    ax2.plot(x, y, 'r')
+    
+    
+def run_multiple_bgd_for_simple_lr(x, y, params, learning_rate, n_iter):
+    for i in range(int(n_iter)):
+        y_hat = params['b0'] + params['b1'] * x
+        
+        y_dif = y - y_hat
+        total_b0_grad = -(2 * y_dif).mean()
+        total_b1_grad = -((2 * y_dif) * x).mean()
+        
+        params['b0'] = params['b0'] - learning_rate * total_b0_grad
+        params['b1'] = params['b1'] - learning_rate * total_b1_grad
+        
+        x_ = np.linspace(-4, 4)
+        b0 = params['b0']
+        b1 = params['b1']
+        y_hat = b0 + b1 * x_
+        
+        params['path'].append({
+            'b0': b0, 
+            'b1': b1
+        })
+    
+    x_ = np.linspace(-4, 4)
+    b0 = params['b0']
+    b1 = params['b1']
+    y_hat = b0 + b1 * x_
+    
+    
+    f, (ax1, ax2) = plt.subplots(1, 2, sharey=False)
+    f.set_figheight(5)
+    f.set_figwidth(15)
+    
+    plt.ylim([-4, 8])
+    plt.xlim([-6, 6])
+    ax1.plot(x_, y_hat)
+    ax1.scatter(x, y, c='orange')
+    
+    path = params['path']
+    
+    x = []
+    y = []
+    
+    for p in path:
+        x.append(p['b0'])
+        y.append(p['b1'])
+    
+    ax2.plot(x, y, 'r')
     
 
 def sgd_simple_lr_dataset_demo():
@@ -220,10 +304,32 @@ def sgd_simple_lr_dataset_demo():
 
     params = {
         'b0': -1, 
-        'b1': -5
+        'b1': -5, 
+        'path': []
     }
 
-    interact_manual(run_multiple_sgd_iter_for_simple_r, 
+    interact_manual(run_multiple_sgd_iter_for_simple_lr, 
+                    x=fixed(x), y=fixed(y), 
+                    params=fixed(params), 
+                    n_iter=FloatSlider(
+                        min=1, max=100, step=1, value=1), 
+                    learning_rate=FloatSlider(
+                        min=0.01, max=2.0, step=0.01, value=0.01))
+    
+    
+def bgd_simple_lr_dataset_demo():
+    x, y = make_regression(n_features=1, n_samples=100, noise=30.5, random_state=10, bias=200)
+    x = x[:, 0]
+    y /= 100
+    y *= 2.0
+
+    params = {
+        'b0': -1, 
+        'b1': -5, 
+        'path': []
+    }
+
+    interact_manual(run_multiple_bgd_for_simple_lr, 
                     x=fixed(x), y=fixed(y), 
                     params=fixed(params), 
                     n_iter=FloatSlider(
