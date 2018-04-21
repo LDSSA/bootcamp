@@ -11,6 +11,8 @@ import matplotlib.pyplot as plt
 
 import numpy as np
 
+from sklearn.utils import check_random_state
+
 
 def plot_simple_regression(b0=0, b1=1, xlim=(-5, 5), ylim=(-5, 5)):
     x = np.linspace(-10, 10, 1000)
@@ -200,7 +202,7 @@ def run_linear_regression_sgd_epoch(x, y, params, learning_rate):
     return params
     
 
-def run_multiple_sgd_iter_for_simple_lr(x, y, params, learning_rate, n_iter):
+def run_multiple_sgd_iter_for_simple_lr(x, y, params, learning_rate, n_iter, random_state):
     data = pd.concat(
         (x.to_frame(), y.to_frame()), 
         axis=1)
@@ -297,10 +299,14 @@ def run_multiple_bgd_for_simple_lr(x, y, params, learning_rate, n_iter):
     
 
 def sgd_simple_lr_dataset_demo():
-    x, y = make_regression(n_features=1, n_samples=100, noise=30.5, random_state=10, bias=200)
-    x = x[:, 0]
+    random_state = check_random_state(10)
+    
+    x, y = make_regression(n_features=1, n_samples=100, noise=30.5, 
+                           random_state=random_state, bias=200)
+    x = pd.Series(x[:, 0])
     y /= 100
     y *= 2.0
+    y = pd.Series(y)
 
     params = {
         'b0': -1, 
@@ -310,6 +316,7 @@ def sgd_simple_lr_dataset_demo():
 
     interact_manual(run_multiple_sgd_iter_for_simple_lr, 
                     x=fixed(x), y=fixed(y), 
+                    random_state=fixed(random_state), 
                     params=fixed(params), 
                     n_iter=FloatSlider(
                         min=1, max=100, step=1, value=1), 
@@ -335,4 +342,4 @@ def bgd_simple_lr_dataset_demo():
                     n_iter=FloatSlider(
                         min=1, max=100, step=1, value=1), 
                     learning_rate=FloatSlider(
-                        min=0.01, max=2.0, step=0.01, value=0.01))
+                        min=0.01, max=100.0, step=0.01, value=0.01))
