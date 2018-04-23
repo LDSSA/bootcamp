@@ -1,7 +1,7 @@
 # Small Learning Unit 18 - Unsupervised Learning 
 
 
-#### [Presentation](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+#### [Presentation](https://docs.google.com/presentation/d/1bUmfS1pwNvUx1_3-WOMFTXJqtwCXaRkUf8664rqt5OI/edit?usp=sharing)
 
 # New concepts in this unit
 - Clustering
