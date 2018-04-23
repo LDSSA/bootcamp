@@ -12,4 +12,5 @@
 - Sklearn logit
 
 # New tools in this unit
-- SOONtm
+- [LogisticRegression](http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)
+- [SGDClassifier](http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.SGDClassifier.html)
