@@ -1,4 +1,4 @@
-# Small Learning Unit 6 - Pandas 101: Learning Notebook
+# Small Learning Unit 1 - Pandas 101: Learning Notebook
 
 
 #### [Presentation](https://docs.google.com/presentation/d/1QT9ozEwhTyZYumCtaQk4_-2cBEgNvtGCVrMnIAKb9aA/present#slide=id.p)
