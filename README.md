@@ -1,9 +1,3 @@
-# This is obsolete, go away! 
-
-![Go away](http://www.reactiongifs.com/r/bcga.gif)
-
-
-
 # Until Academy Launch
 
 This repo will be under construction. If you are looking at it, it's probably because you
