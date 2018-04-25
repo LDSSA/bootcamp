@@ -9,7 +9,7 @@
 * Train and test errors
 * Train-test split (aka holdout method)
 * Train-validation-test split
-* Cross-validation (k-Fold)
+* Cross-validation
 * Bootstrapping
 
 # New tools in this unit
