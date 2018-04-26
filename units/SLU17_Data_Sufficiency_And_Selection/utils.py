@@ -164,7 +164,7 @@ def plot_learning_curve(estimator, title, X, y, ylim=None, cv=None,
     plt.plot(train_sizes, train_scores_mean, 'o-', color="r",
              label="Training score")
     plt.plot(train_sizes, test_scores_mean, 'o-', color="g",
-             label="Cross-validation score")
+             label="Test Set score")
 
     plt.legend(loc="best")
     return plt
