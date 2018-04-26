@@ -1,7 +1,7 @@
 # Small Learning Unit 6 - Intermediate Statistics 
 
 
-#### [Presentation](https://youtu.be/BsBK3gyMFcw?t=18s)
+#### [Presentation](https://docs.google.com/presentation/d/1yeoxsKO041bkmXni8N-Ei_pHOcyf8-eAX1A2510zvMM/edit#slide=id.g23453255f4_0_228)
 
 # New concepts in this unit
 - Pearson correlation
