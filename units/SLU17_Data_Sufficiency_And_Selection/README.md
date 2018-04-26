@@ -1,7 +1,7 @@
-# Small Learning Unit 16 - Data Sufficiency and Selection
+# Small Learning Unit 17 - Data Sufficiency and Selection
 
 
-#### [Presentation]()
+#### [Presentation](https://docs.google.com/presentation/d/1gVermXPIkyLKsL_IItAoYq0G2hxwi5Nf0Bw2APZOc6g/edit?usp=sharing)
 
 
 # New concepts in this unit
