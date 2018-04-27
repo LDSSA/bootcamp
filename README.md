@@ -1,5 +1,7 @@
 # Until Academy Launch
 
+[Bootcamp introduction presentation](https://docs.google.com/presentation/d/1nWoYfIYBVMY3kKw0ohhLVFHONfdlt0vlhzrnPqfClBM/edit?usp=sharing)
+
 ## What is this repo?
 
 This repo contains a series of Learning Units. 
