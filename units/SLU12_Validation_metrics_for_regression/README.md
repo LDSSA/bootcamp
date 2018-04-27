@@ -1,4 +1,4 @@
-# Small Learning Unit 6 - Intermediate Statistics 
+# Small Learning Unit 12 - Validation metrics for regression
 
 
 #### [Presentation](https://docs.google.com/presentation/d/18MCcl8EchgDo4g8gp8gRjsXiSemWOtWQ-3StmWng5dU/edit?usp=sharing)
