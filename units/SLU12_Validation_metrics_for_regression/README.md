@@ -1,7 +1,7 @@
 # Small Learning Unit 6 - Intermediate Statistics 
 
 
-#### [Presentation](https://youtu.be/BsBK3gyMFcw?t=18s)
+#### [Presentation](https://docs.google.com/presentation/d/18MCcl8EchgDo4g8gp8gRjsXiSemWOtWQ-3StmWng5dU/edit?usp=sharing)
 
 # New concepts in this unit
 - Mean Absolute Error (MAE)
