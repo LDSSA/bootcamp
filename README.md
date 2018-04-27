@@ -2,17 +2,17 @@
 
 ## What is this repo?
 
-This repo contains a series of Learning Units. A Learning Unit is one hour of material
-meant to convey a few related concepts in the form of
+This repo contains a series of Learning Units. 
+A Learning Unit is one hour of material meant to convey a few related concepts in the form of
 
 - a short (<15 min) presentation
-- some example notebooks
-- some practice exercises
+- A Learning Notebook 
+- An Examples Notebook
+- An Exercises notebook
 
-During the academy, we will be going through these one-by-one listening
-to the instructors give their short presentations, checking out the examples,
-and doing the practice exercises.
+During the academy, we will be going through these one-by-one listening to the instructors give their short presentations, checking out the examples, and doing the practice exercises. 
 
+You will probably not have time to read the Learning Notebooks during the Bootcamp. That's ok, you have them as references for future study, and for consultation as needed. 
 
 ### Setup
 
