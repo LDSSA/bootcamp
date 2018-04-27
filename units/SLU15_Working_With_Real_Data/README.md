@@ -1,6 +1,6 @@
 # Small Learning Unit 15 - Working With Real Data
 
-#### Link to the presentation to be added here
+#### [Presentation](https://docs.google.com/presentation/d/1kGKIBvSqOjoMUAicHhbtTETVXM_RQBlVBAagZeozY0g/edit#slide=id.g35ed75ccf_028)
 
 # New concepts in this unit
 * Tidy data
