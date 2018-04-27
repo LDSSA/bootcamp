@@ -9,7 +9,6 @@
 - Dimensionality reduction
 
 # New tools in this unit
-- [MinMaxScaler](http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html)
-- [StandardScaler](http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html)
-- [KMeans](http://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html)
-- [PCA](http://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html)
+- [sklearn.cluster.KMeans](http://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html)
+- [sklearn.decomposition.PCA](http://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html)
+- [sklearn.preprocessing.StandardScaler](http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html)
