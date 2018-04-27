@@ -12,4 +12,4 @@
 
 # New tools in this unit
 
-TODO
+- [sklearn pipelines](http://scikit-learn.org/stable/modules/generated/sklearn.pipeline.Pipeline.html)
