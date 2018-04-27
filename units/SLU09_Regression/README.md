@@ -1,7 +1,7 @@
 # Small Learning Unit 9 - Regression
 
 
-#### [Presentation](https://youtu.be/BsBK3gyMFcw?t=18s)
+#### [Presentation](https://docs.google.com/presentation/d/1vahkPmMcfn8oxipyPga0NGtoJxrUvxM8ns4YK1jqIGY/edit?usp=sharing)
 
 # New concepts in this unit
 - What is regression?
