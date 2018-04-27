@@ -1,7 +1,7 @@
-# Small Learning Unit 6 - Intermediate Statistics 
+# Small Learning Unit 12 - Validation metrics for regression
 
 
-#### [Presentation](https://youtu.be/BsBK3gyMFcw?t=18s)
+#### [Presentation](https://docs.google.com/presentation/d/18MCcl8EchgDo4g8gp8gRjsXiSemWOtWQ-3StmWng5dU/edit?usp=sharing)
 
 # New concepts in this unit
 - Mean Absolute Error (MAE)
@@ -16,4 +16,3 @@
 - [sklearn.metrics.mean_squared_error](http://scikit-learn.org/0.18/modules/generated/sklearn.metrics.mean_squared_error.html)
 - [sklearn.metrics.r2_score](http://scikit-learn.org/0.18/modules/generated/sklearn.metrics.r2_score.html#sklearn.metrics.r2_score)
 - [sklearn.linear_model.Ridge](http://scikit-learn.org/0.18/modules/generated/sklearn.linear_model.Ridge.html)
-- [sklearn.linear_model.Lasso](http://scikit-learn.org/0.18/modules/generated/sklearn.linear_model.Lasso.html)
