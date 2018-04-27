@@ -16,4 +16,3 @@
 - [sklearn.metrics.mean_squared_error](http://scikit-learn.org/0.18/modules/generated/sklearn.metrics.mean_squared_error.html)
 - [sklearn.metrics.r2_score](http://scikit-learn.org/0.18/modules/generated/sklearn.metrics.r2_score.html#sklearn.metrics.r2_score)
 - [sklearn.linear_model.Ridge](http://scikit-learn.org/0.18/modules/generated/sklearn.linear_model.Ridge.html)
-- [sklearn.linear_model.Lasso](http://scikit-learn.org/0.18/modules/generated/sklearn.linear_model.Lasso.html)
