@@ -2,7 +2,7 @@
 
 In this directory you will be learning how to use data visualization to find patterns in data as well as to tell whether there is an issue with it.
 
-#### [Presentation](https://docs.google.com/presentation/d/1KTPDWDIxp9qHStplrs4AfQYZWBc-9QUB3zWtueRt7Mo/pub?start=false&loop=false&delayms=3000)
+#### [Presentation](https://docs.google.com/presentation/d/1KTPDWDIxp9qHStplrs4AfQYZWBc-9QUB3zWtueRt7Mo/edit?usp=sharing)
 
 # New concepts in this unit
 - Scatterplots
