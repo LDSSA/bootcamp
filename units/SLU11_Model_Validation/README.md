@@ -1,6 +1,6 @@
 # Small Learning Unit 11 - Model Validation
 
-#### Link to the presentation to be added here
+#### [Presentation](https://docs.google.com/presentation/d/1qdg2y9jAjie56yUUPJdsmjy9mWgFkwcgSTVyODvz2xk/edit#slide=id.g35f391192_029y)
 
 # New concepts in this unit
 * Bias-variance tradeoff
